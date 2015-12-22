@@ -23,6 +23,7 @@ Author: Jonathan Hornung ([JohnnyTheTank](https://github.com/JohnnyTheTank))
 #### getVideos
 
 ##### getVideosFromUserById
+Get all parameters [here](https://developer.dailymotion.com/tools/apiexplorer#/user/videos/list)
 ```js
 // all parameters: https://developer.dailymotion.com/tools/apiexplorer#/user/videos/list
 dailymotionFactory.getVideosFromUserById({
@@ -37,6 +38,7 @@ dailymotionFactory.getVideosFromUserById({
 ```
 
 ##### getVideosFromChannelById
+Get all parameters [here](https://developer.dailymotion.com/tools/apiexplorer#/channel/videos/list)
 ```js
 // all parameters: https://developer.dailymotion.com/tools/apiexplorer#/channel/videos/list
 dailymotionFactory.getVideosFromChannelById({
@@ -51,6 +53,7 @@ dailymotionFactory.getVideosFromChannelById({
 ```
 
 ##### getVideosFromPlaylistById
+Get all parameters [here](https://developer.dailymotion.com/tools/apiexplorer#/playlist/videos/list)
 ```js
 // all parameters: https://developer.dailymotion.com/tools/apiexplorer#/playlist/videos/list
 dailymotionFactory.getVideosFromPlaylistById({
@@ -64,6 +67,7 @@ dailymotionFactory.getVideosFromPlaylistById({
 ```
 
 ##### getVideosByParams
+Get all parameters [here](https://developer.dailymotion.com/tools/apiexplorer#/video/list)
 ```js
 // all parameters: https://developer.dailymotion.com/tools/apiexplorer#/video/list
 dailymotionFactory.getVideosByParams({
