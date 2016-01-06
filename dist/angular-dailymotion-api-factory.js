@@ -1,3 +1,10 @@
+/**
+    @name: angular-dailymotion-api-factory 
+    @version: 0.5.0 (06-01-2016) 
+    @author: Jonathan Hornung <jonathan.hornung@gmail.com> 
+    @url: https://github.com/JohnnyTheTank/angular-dailymotion-api-factory#readme 
+    @license: MIT
+*/
 "use strict";
 
 angular.module("jtt_dailymotion", [])
