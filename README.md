@@ -4,17 +4,24 @@ Author: Jonathan Hornung ([JohnnyTheTank](https://github.com/JohnnyTheTank))
 
 ## Usage
 
-1. Install via [bower](http://bower.io/) :
+1. Install via either [bower](http://bower.io/), [npm](https://www.npmjs.com/) or downloaded files:
     1. `bower install --save angular-dailymotion-api-factory`
+    2. `npm install --save angular-dailymotion-api-factory`
+    3. download [angular-dailymotion-api-factory.zip](https://github.com/JohnnyTheTank/angular-dailymotion-api-factory/zipball/master)
 2. Add `jtt_dailymotion` to your application's module dependencies.
 3. Include dependencies in your HTML.
     1. When using bower:
-
     ```html
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-dailymotion-api-factory/src/angular-dailymotion-api-factory.js"></script>
+    <script src="bower_components/angular-dailymotion-api-factory/src/angular-dailymotion-api-factory.min.js"></script>
     ```
-
+    2. When using npm:
+    ```html
+    <script src="node_modules/angular-dailymotion-api-factory/src/angular-dailymotion-api-factory.min.js"></script>
+    ```
+    3. when using downloaded files
+    ```html
+    <script src="angular-dailymotion-api-factory.min.js"></script>
+    ```
 4. Use the factory `dailymotionFactory`
 
 
