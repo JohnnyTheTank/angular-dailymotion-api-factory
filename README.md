@@ -30,9 +30,9 @@ dailymotionFactory.getVideosFromUserById({
     id:"<USER_ID>",
     search:"<SEARCH_TERM>", // (optional)
     limit:"<LIMIT>", // (optional) valid values: 1-100 | default: 10
-}).success(function(_data){
+}).then(function(_data){
     //on success
-}).error(function (_data) {
+}).catch(function (_data) {
     //on error
 });
 ```
@@ -45,9 +45,9 @@ dailymotionFactory.getVideosFromChannelById({
     id:"<CHANNEL_ID>",
     search:"<SEARCH_TERM>", // (optional)
     limit:"<LIMIT>", // (optional) valid values: 1-100 | default: 10
-}).success(function(_data){
+}).then(function(_data){
     //on success
-}).error(function (_data) {
+}).catch(function (_data) {
     //on error
 });
 ```
@@ -59,9 +59,9 @@ Get all parameters [here](https://developer.dailymotion.com/tools/apiexplorer#/p
 dailymotionFactory.getVideosFromPlaylistById({
     id:"<PLAYLIST_ID>",
     limit:"<LIMIT>", // (optional) valid values: 1-100 | default: 10
-}).success(function(_data){
+}).then(function(_data){
     //on success
-}).error(function (_data) {
+}).catch(function (_data) {
     //on error
 });
 ```
@@ -74,9 +74,9 @@ dailymotionFactory.getVideosByParams({
     search:"<SEARCH_TERM>", // (optional)
     tags:"<TAGS>", // (optinal)
     limit:"<LIMIT>", // (optional) valid values: 1-100 | default: 10
-}).success(function(_data){
+}).then(function(_data){
     //on success
-}).error(function (_data) {
+}).catch(function (_data) {
     //on error
 });
 ```
