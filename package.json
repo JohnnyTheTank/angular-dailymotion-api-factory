@@ -1,6 +1,6 @@
 {
   "name": "angular-dailymotion-api-factory",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "angularjs factory for dailymotion json rest api requests",
   "main": "dist/angular-dailymotion-api-factory.js",
   "scripts": {

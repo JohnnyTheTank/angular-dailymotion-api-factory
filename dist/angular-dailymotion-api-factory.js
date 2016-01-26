@@ -1,6 +1,6 @@
 /**
     @name: angular-dailymotion-api-factory 
-    @version: 0.5.0 (06-01-2016) 
+    @version: 0.5.1 (26-01-2016) 
     @author: Jonathan Hornung <jonathan.hornung@gmail.com> 
     @url: https://github.com/JohnnyTheTank/angular-dailymotion-api-factory#readme 
     @license: MIT
@@ -100,7 +100,7 @@ angular.module("jtt_dailymotion", [])
             switch (_type) {
 
                 case "videosFromUserById":
-                    dailymotionSearchData.object.fields = 'bookmarks_total,comments_total,created_time,description,duration,embed_html,id,item_type,media_type,owner.id,owner.screenname,owner.url,thumbnail_url,title,updated_time,url,';
+                    dailymotionSearchData.object.fields = 'bookmarks_total,comments_total,created_time,description,duration,embed_html,id,item_type,media_type,owner.id,owner.screenname,owner.url,thumbnail_240_url,thumbnail_720_url,thumbnail_url,title,updated_time,url,';
 
                     dailymotionSearchData = this.fillDataInObjectByList(dailymotionSearchData, _params, [
                         'fields', 'channel', 'created_after', 'created_before', 'genre', 'nogenre', 'page', 'limit', 'search', 'tags'
@@ -110,7 +110,7 @@ angular.module("jtt_dailymotion", [])
                     break;
 
                 case "videosFromChannelById":
-                    dailymotionSearchData.object.fields = 'bookmarks_total,comments_total,created_time,description,duration,embed_html,id,item_type,media_type,owner.id,owner.screenname,owner.url,thumbnail_url,title,updated_time,url,';
+                    dailymotionSearchData.object.fields = 'bookmarks_total,comments_total,created_time,description,duration,embed_html,id,item_type,media_type,owner.id,owner.screenname,owner.url,thumbnail_240_url,thumbnail_720_url,thumbnail_url,title,updated_time,url,';
 
                     dailymotionSearchData = this.fillDataInObjectByList(dailymotionSearchData, _params, [
                         'fields', 'channel', 'created_after', 'created_before', 'search', 'sort', 'tags', 'page', 'limit',
@@ -120,7 +120,7 @@ angular.module("jtt_dailymotion", [])
                     break;
 
                 case "videosFromPlaylistById":
-                    dailymotionSearchData.object.fields = 'bookmarks_total,comments_total,created_time,description,duration,embed_html,id,item_type,media_type,owner.id,owner.screenname,owner.url,thumbnail_url,title,updated_time,url,';
+                    dailymotionSearchData.object.fields = 'bookmarks_total,comments_total,created_time,description,duration,embed_html,id,item_type,media_type,owner.id,owner.screenname,owner.url,thumbnail_240_url,thumbnail_720_url,thumbnail_url,title,updated_time,url,';
 
                     dailymotionSearchData = this.fillDataInObjectByList(dailymotionSearchData, _params, [
                         'fields', 'search', 'sort', 'tags', 'page', 'limit',
@@ -130,7 +130,7 @@ angular.module("jtt_dailymotion", [])
                     break;
 
                 case "videosByParams":
-                    dailymotionSearchData.object.fields = 'bookmarks_total,comments_total,created_time,description,duration,embed_html,id,item_type,media_type,owner.id,owner.screenname,owner.url,thumbnail_url,title,updated_time,url,';
+                    dailymotionSearchData.object.fields = 'bookmarks_total,comments_total,created_time,description,duration,embed_html,id,item_type,media_type,owner.id,owner.screenname,owner.url,thumbnail_240_url,thumbnail_720_url,thumbnail_url,title,updated_time,url,';
 
                     dailymotionSearchData = this.fillDataInObjectByList(dailymotionSearchData, _params, [
                         'fields', 'channel', 'country', 'created_after', 'created_before', 'detected_language', 'exclude_ids', 'featured', 'genre', 'has_game', 'hd', 'ids', 'in_history', 'languages', 'list', 'live', 'live_offair', 'live_onair', 'live_upcoming', 'longer_than', 'no_live', 'no_premium', 'nogenre', 'owners', 'partner', 'poster', 'premium', 'private', 'search', 'shorter_than', 'sort', 'svod', 'tags', 'tvod', 'ugc', 'verified', 'page', 'limit'
