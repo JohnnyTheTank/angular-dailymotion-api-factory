@@ -2,7 +2,7 @@
   "name": "angular-dailymotion-api-factory",
   "description": "angularjs factory for dailymotion json rest api requests",
   "version": "0.5.1",
-  "main": "Gruntfile.js",
+  "main": "dist/angular-dailymotion-api-factory.js",
   "authors": [
     "Jonathan Hornung"
   ],
