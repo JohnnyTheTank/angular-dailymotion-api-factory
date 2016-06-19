@@ -97,6 +97,8 @@ dailymotionFactory.getVideosByParams({
 * docs: https://developer.dailymotion.com/api
 * api explorer: https://developer.dailymotion.com/tools/apiexplorer
 
+## More angular-api-factories
+[bandsintown](https://github.com/JohnnyTheTank/angular-bandsintown-api-factory) - **dailymotion** - [facebook](https://github.com/JohnnyTheTank/angular-facebook-api-factory) - [flickr](https://github.com/JohnnyTheTank/angular-flickr-api-factory) - [github](https://github.com/JohnnyTheTank/angular-github-api-factory) - [openweathermap](https://github.com/JohnnyTheTank/angular-openweathermap-api-factory) - [tumblr](https://github.com/JohnnyTheTank/angular-tumblr-api-factory) - [vimeo](https://github.com/JohnnyTheTank/angular-vimeo-api-factory) - [wikipedia](https://github.com/JohnnyTheTank/angular-wikipedia-api-factory) - [youtube](https://github.com/JohnnyTheTank/angular-youtube-api-factory)
 
 ## License
 
